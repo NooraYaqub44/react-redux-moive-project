@@ -1,20 +1,23 @@
 # The Movie Project
 
-This is a movie project based on The Movie Database (TMDB) API `https://www.themoviedb.org/documentation/api`. 
+This is a movie project based on The Movie Database (TMDB) API `https://www.themoviedb.org/documentation/api`.
 This projects display movies, casts, rating, trailers and various other data.
 This project will test your skills using Postman to explore the API and get the data you want.
 
-# Requirements: 
+# Requirements:
 
 - Modern, responsive and simple to use interface.
 - Once you fetch data or anything it should be stored in the state management system you are using. Optimize your network calls.
 
 ### Home Page
+
 - Show a section for the most popular movies.
 - Show a section for the most trending movies.
 - Show a section for the latest trailer.
 - Tha ability to bookmark the movies.
-### Navbar 
+
+### Navbar
+
 - Universal nav that is shown on every page of the website.
 - Include a Home button that moves the user to the home page.
 - Include a Genre button that display a dropdown list of all movies genre.
@@ -31,6 +34,7 @@ This project will test your skills using Postman to explore the API and get the 
 - Anything you want to add.
 
 ### Movies Page
+
 - Display a list of movies.
 - Display the movie poster
 - Display the movie name
@@ -39,7 +43,7 @@ This project will test your skills using Postman to explore the API and get the 
 - Tha ability to bookmark the movie.
 - The ability to search for a specific movie.
 - Once you click on a movie, it will move you to the singe page of that movie.
-- Use lazy loading functionality. 
+- Use lazy loading functionality.
 
 ### Single Movie Page
 
@@ -53,11 +57,13 @@ This project will test your skills using Postman to explore the API and get the 
 - Once you click on an actor you move to their page.
 
 ### Actors Page
+
 - Display list of actors showing their name, and image same as movies page.
 - Once you click on an actor you go to their own page.
-- Use lazy loading functionality. 
+- Use lazy loading functionality.
 
 ### Single Actor Page
+
 - Display actor image
 - Display actor name
 - Display actor gender
@@ -67,15 +73,17 @@ This project will test your skills using Postman to explore the API and get the 
 - Display a list of movies that the actor participated in.
 
 ### Bookmarked Page
+
 - Display the movies the user bookmarked. Only if they are signed in.
 
-# Instructions: 
+# Instructions:
 
 ## File structure
 
 - depending on what flow to take
-    - Follow the component container pattern, so your two main folders inside the `src` will be the `components` folder that will contain your components and `containers` that will contain container components. *You can read more about container components [here](https://reactpatterns.com/#container-component) or you can ask you team leader about it for more clarity.*
-    - similar concept you can use the component page 
+
+  - Follow the component container pattern, so your two main folders inside the `src` will be the `components` folder that will contain your components and `containers` that will contain container components. _You can read more about container components [here](https://reactpatterns.com/#container-component) or you can ask you team leader about it for more clarity._
+  - similar concept you can use the component page
     take a look [here](https://blog.bitsrc.io/structuring-a-react-project-a-definitive-guide-ac9a754df5eb)
 
 - Use `scss` instead of css if you going with `react-bootstrap`
@@ -108,12 +116,12 @@ Your project hierarchy should look something similar to this:
 
 - You should have prettier installed and make sure your code is well formatted before committing it.
 - You should have eslint installed and make sure your code is following the [Airbnb guidelines](https://github.com/airbnb/javascript/tree/master/react) before committing.
-- You should install [Husky](https://github.com/typicode/husky) to make sure that your code gets checked before you commit anything. 
+- You should install [Husky](https://github.com/typicode/husky) to make sure that your code gets checked before you commit anything.
 - For Styling use Tailwind, Styled Components, React-Bootstrap, or Material UI.
 - Follow the [Git feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 - Follow the [Angular commit message format](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format)
 - This project should be deployed to [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/)
-- For state management use Redux or Redux-toolkit. 
+- For state management use Redux or Redux-toolkit.
 - For any data fetching build a custom hook and use [Axios](https://github.com/axios/axios).
 
 [Helpful article about prettier and eslint](https://www.mkapica.com/react-eslint/)
